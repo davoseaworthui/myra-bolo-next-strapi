@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_logo_links",
+  "info": {
+    "displayName": "Logo Link"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

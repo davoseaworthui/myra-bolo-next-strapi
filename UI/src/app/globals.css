@@ -1,0 +1,22 @@
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    /* Light theme background */
+    background-image: url('/img/shutterstock2688690531.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: center;
+  }
+
+  /* Dark mode styles */
+  .dark body {
+    @apply dark:bg-trueGray-900;
+    /* You can apply a different background image or settings for dark mode */
+    background-image: url('/img/shutterstock2688690531_dark.jpg'); /* Different image for dark mode */
+  }
+}

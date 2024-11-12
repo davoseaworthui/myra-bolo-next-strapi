@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_blocks_hero_blocks",
+  "info": {
+    "displayName": "Hero Block"
+  },
+  "options": {},
+  "attributes": {
+    "tagline": {
+      "type": "string"
+    },
+    "introLine": {
+      "type": "string"
+    },
+    "heroName": {
+      "type": "string"
+    },
+    "subTagline": {
+      "type": "string"
+    },
+    "heroImage": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
