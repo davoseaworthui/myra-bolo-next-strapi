@@ -41,7 +41,6 @@ async function getAboutMe() {
 export default async function Home() {
   const aboutMeData = await getAboutMe();
   aboutMeData.imageRight = false;
-  console.log(`heeeeej`, aboutMeData);
   return (
     <Container>
       <Hero />
