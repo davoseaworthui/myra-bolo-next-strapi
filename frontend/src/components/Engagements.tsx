@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { StrapiImage } from './StrapiImage';
 import { Container } from '@/components/Container';
 import { getStrapiURL } from '@/lib/utils';

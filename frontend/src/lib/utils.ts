@@ -45,6 +45,6 @@ export function getStrapiURL() {
 export function getStrapiMedia(url: string | null) {
   if (url == null) return null;
   if (url.startsWith("data:")) return url;
-  if (url.startsWith("http") || url.startsWith("//")) return url;
+  if (url.startsWith("http") || url.startsWith("//")) return decodeURIComponent(url);
   return `${getStrapiURL()}${url}`;
 }

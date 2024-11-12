@@ -19,10 +19,12 @@ export function StrapiImage({
 }: Readonly<StrapiImageProps>) {
   if (!src) return null;
   const imageUrl = getStrapiMedia(src);
+
   const imageFallback = `https://placehold.co/${width}x${height}`;
 
   return (
-    <Image
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
       src={imageUrl ?? imageFallback}
       alt={alt}
       height={height}
