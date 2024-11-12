@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "refined-bird-8571dc761a.media.strapiapp.com",
+        hostname: "placehold.co",
         port: "",
         pathname: "/**",
       },
