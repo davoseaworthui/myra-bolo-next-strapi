@@ -1,9 +1,9 @@
+/* eslint-disable prettier/prettier */
 import { StrapiImage } from './StrapiImage';
 import { dm_sans, dm_serif_dsplay } from '@/app/utils/fonts';
 import { Container } from '@/components/Container';
 import { getStrapiURL } from '@/lib/utils';
-/* 
-import Image from 'next/image';
+/*import Image from 'next/image';
 import Link from 'next/link'; */
 import qs from 'qs';
 

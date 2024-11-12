@@ -1,5 +1,6 @@
-import Image from "next/image";
-import { getStrapiMedia } from "@/lib/utils";
+/* eslint-disable prettier/prettier */
+import Image from 'next/image';
+import { getStrapiMedia } from '@/lib/utils';
 
 interface StrapiImageProps {
   src: string;

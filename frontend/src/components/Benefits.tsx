@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { StrapiImage } from './StrapiImage';
 import { dm_serif_dsplay } from '@/app/utils/fonts';
 import { getStrapiURL } from '@/lib/utils';
